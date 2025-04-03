@@ -1,5 +1,5 @@
 # f1_dashboard.py
-
+import os
 import streamlit as st
 import fastf1
 import pandas as pd
@@ -8,11 +8,11 @@ import plotly.express as px
 import plotly.graph_objects as go
 
 #cache
-cache_dir = "f1_cache"
-if not os.path.exists(cache_dir):
-    os.makedirs(cache_dir)
+f1_cache = os.path.join(os.getcwd(), "f1_cache")
 
-fastf1.Cache.enable_cache(cache_dir)
+if not os.path.exists(f1_cache):
+    os.makedirs(f1_cache, exist_ok=True)  # `exist_ok=True` prevents errors if it already exists
+
 fastf1.Cache.enable_cache('f1_cache')
 
 #Title
