@@ -30,7 +30,7 @@
 - Error bars indicate variability
 - Shows how different tyre compounds age during a race
 
-### 4. Race Pace & Strategy (Top 3 drivers) - *Was it a masterstroke or a disaster class?* 🤯
+### 4. Race Pace & Strategy (Top 3 drivers) - *What's the Podium Playbook* 🥇🥈🥉
 <img src="img/image_2025-04-04_02-33-18.png" width="500">
 
 - Lap-by-lap graph of top 3 finishers
