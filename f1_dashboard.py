@@ -236,8 +236,7 @@ fastest_lap_time = fastest_lap['LapSeconds']
 
 st.markdown(f"**Fastest Lap:** {fastest_driver} on Lap {fastest_lap_number} with a time of {fastest_lap_time:.3f} seconds.")
 
-st.markdown("""
-Insight:  
+st.markdown(""" 
 This graph shows how lap times evolved for the top 3 drivers. Sharp spikes typically denote out-laps or in-laps. Pit stops are shown as black X marks. Changes in line trends often reflect strategy calls like undercuts or tyre switches.
 
 The battle for race pace isn’t just about speed—it’s about knowing when to push and when to hold back. 
