@@ -42,7 +42,7 @@ laps['TyreLife'] = laps.groupby(['Driver', 'Compound'], observed=True).cumcount(
 laps['DriverTeam'] = laps['Driver'] + " (" + laps['Team'] + ")"
 
 # Speed Trap Visualization
-st.header("Speed Trap Distribution: ",sep="\n", "Sorted by Performance, Grouped by Team")
+st.header("Speed Trap Distribution: ","Sorted by Performance, Grouped by Team", sep="\n")
 
 driver_avg_speed = laps.groupby(['Driver', 'Team'])['SpeedST'].mean().reset_index()
 driver_avg_speed = driver_avg_speed.sort_values(by='SpeedST', ascending=False)
