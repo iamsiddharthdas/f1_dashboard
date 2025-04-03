@@ -36,7 +36,7 @@ This dashboard visualizes Formula 1 race data using FastF1. Explore speed trap m
 
 ## Demo
 
-![https://formula1-dashboard.streamlit.app/] 
+https://formula1-dashboard.streamlit.app/
 
 ---
 
