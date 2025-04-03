@@ -1,10 +1,10 @@
 
 ***Ever wondered what makes an F1 car blisteringly fast? Or why some strategies backfire spectacularly?***
 
-### Welcome to ****F1 Race Analysis Dashboard**** 🏎️
+## Welcome to ****F1 Race Analysis Dashboard**** 🏎️
 Your pit wall companion for decoding Formula 1 races!
 
-## What's Under the Hood?
+### What's Under the Hood?
 
 ### 1. Speed Trap Distribution - Who’s the fastest on the straights? 💨 
 <img src="img/image_2025-04-04_02-27-54.png" width="500">
