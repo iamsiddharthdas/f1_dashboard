@@ -33,11 +33,12 @@ This dashboard visualizes Formula 1 race data using FastF1. Explore speed trap m
 - Driver position changes from start to finish
 - Highlights undercut strategies and consistency
 
----
 
 ## Demo
 
 [Launch Dashboard on Cloud](#) – (Insert link after deployment)
+
+---
 
 ## Install dependencies:
 ```bash
