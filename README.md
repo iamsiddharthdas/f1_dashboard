@@ -32,33 +32,18 @@ This dashboard visualizes Formula 1 race data using FastF1. Explore speed trap m
 
 [Launch Dashboard on Cloud](#) – (Insert link after deployment)
 
-## Requirements
-
-1. Install dependencies:
-
+## Install dependencies:
 ```bash
 pip install -r requirements.txt
-
-
-2. Run the App
-
-streamlit run f1_dashboard.py
-
-How to Run Locally (Clone the Repo)
-
+```
+## Run the App
 ```bash
-git clone https://github.com/your-username/f1-dashboard.git
-cd f1-dashboard
-
-
+streamlit run f1_dashboard.py
+```
 ## License
-
 MIT License
 
 ## Author
-
-Made with fuel and finesse by Siddharth
-
-
+Made with fuel and finesse by **Siddharth** 
 
 
