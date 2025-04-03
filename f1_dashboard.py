@@ -7,9 +7,15 @@ import numpy as np
 import plotly.express as px
 import plotly.graph_objects as go
 
-# Enable cache
+#cache
+cache_dir = "f1_cache"
+if not os.path.exists(cache_dir):
+    os.makedirs(cache_dir)
+
+fastf1.Cache.enable_cache(cache_dir)
 fastf1.Cache.enable_cache('f1_cache')
 
+#Title
 st.title("Formula 1 Race Analysis Dashboard")
 
 # Sidebar for selecting race and year
@@ -200,7 +206,7 @@ for driver in top3_finishers.index:
         )
     ))
 
-# Add pit stop markers
+# Pit stop markers
 pit_stops = top3_laps[top3_laps['PitInTime'].notnull()]
 fig4.add_trace(go.Scatter(
     x=pit_stops['LapNumber'],
