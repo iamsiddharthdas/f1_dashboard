@@ -1,5 +1,5 @@
 # F1 Race Analysis Dashboard
-(screenshots)
+<img src="img/image_2025-04-04_02-27-54.png" width="500">
 This dashboard visualizes Formula 1 race data using FastF1. Explore speed trap metrics, tyre degradation, drag-downforce tradeoffs, and race strategy insights for any selected Grand Prix from 2022 onwards.
 
 ## Features
