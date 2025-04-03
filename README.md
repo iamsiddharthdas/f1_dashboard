@@ -23,7 +23,7 @@
 - Shows setup tradeoffs (low drag vs high downforce)
 - Driver finishing position indicated in the legend
 
-### 3. Tyre Degradation - *Who’s burning rubber the fastest?* 🛞🔥
+### 3. Tyre Degradation - *Which tyre is cooking?* 🛞🔥
 <img src="img/image_2025-04-04_02-32-51.png" width="500">
 
 - Compound-wise average lap time over race distance
