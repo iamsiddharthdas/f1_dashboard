@@ -153,7 +153,7 @@ The teams that master this culinary chaos? They end up serving podium finishes, 
 
 
 # Race Pace + Pit Strategy
-st.header("Top 3 Finishers – Race Pace & Pit Stop Overlay")
+st.header("Race Pace Evolution with Pit Stops")
 
 finish_positions = laps.groupby('Driver', observed=True)['Position'].last()
 top3_finishers = finish_positions[finish_positions.between(1, 3)].sort_values()
@@ -219,7 +219,7 @@ fig4.add_trace(go.Scatter(
 ))
 
 fig4.update_layout(
-    title='Top 3 Drivers – Race Pace Evolution with Pit Stops',
+    title='Top 3 Drivers - How did they secure the podium finish?',
     xaxis_title='Lap Number',
     yaxis_title='Lap Time (s)',
     width=1100,
