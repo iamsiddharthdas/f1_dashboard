@@ -29,7 +29,7 @@ gp = st.sidebar.selectbox("Select Grand Prix", options=["Melbourne", "Jeddah", "
 try:
     session = fastf1.get_session(year, gp, 'R')
     session.load()
-    st.success(f"Loaded {gp} Grand Prix - {year}")
+    st.success(f"{gp} Grand Prix - {year}")
 except Exception as e:
     st.error(f"Error loading session: {e}")
     st.stop()
