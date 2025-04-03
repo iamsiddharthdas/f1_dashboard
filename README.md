@@ -26,7 +26,7 @@ This dashboard visualizes Formula 1 race data using FastF1. Explore speed trap m
 - Shows how different tyre compounds age during a race
 
 ### 4. Race Pace & Strategy (Top 3 drivers)
-<img src="img/image_2025-04-04_02-33-18" width="500">
+<img src="img/image_2025-04-04_02-33-18.png" width="500">
 
 - Lap-by-lap graph of top 3 finishers
 - Pit stop markers
