@@ -25,10 +25,18 @@ gp = st.sidebar.selectbox("Select Grand Prix", options=["Melbourne", "Jeddah", "
 "Marina Bay", "Austin", "Mexico City", "São Paulo", "Las Vegas", "Losail", "Yas Marina",
 "Portimão", "Mugello", "Istanbul Park", "Nürburgring", "Sepang", "Hanoi"])
 
-# Load session
-try:
+
+@st.cache_data(show_spinner=False)
+def load_session(year, gp):
     session = fastf1.get_session(year, gp, 'R')
-    session.load()
+    # Disable loading of telemetry, weather, and messages to speed up load time
+    session.load(telemetry=False, weather=False, messages=False)
+    return session
+
+try:
+    with st.spinner("Loading session. This may take a moment..."):
+        session = load_session(year, gp)
+
     st.success(f"{gp} Grand Prix - {year}")
 except Exception as e:
     st.error(f"Error loading session: {e}")
