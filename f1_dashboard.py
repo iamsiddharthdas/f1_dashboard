@@ -25,7 +25,7 @@ gp = st.sidebar.selectbox("Select Grand Prix", options=["Melbourne", "Jeddah", "
 "Marina Bay", "Austin", "Mexico City", "São Paulo", "Las Vegas", "Losail", "Yas Marina",
 "Portimão", "Mugello", "Istanbul Park", "Nürburgring", "Sepang", "Hanoi"])
 
-
+# Load session 
 @st.cache_data(show_spinner=False)
 def load_session(year, gp):
     session = fastf1.get_session(year, gp, 'R')
